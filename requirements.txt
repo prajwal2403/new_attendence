@@ -1,0 +1,30 @@
+# requirements.txt
+
+# FastAPI and ASGI server
+fastapi==0.95.2
+uvicorn==0.22.0
+
+# Database and ORM
+mongoengine==0.24.2
+
+# Authentication and Security
+python-jose[cryptography]==3.3.0
+bcrypt==4.0.1
+
+# QR Code Generation and Scanning
+qrcode[pil]==7.4.2
+pyzbar==0.1.9
+opencv-python-headless==4.7.0.72
+
+# File Uploads
+python-multipart==0.0.6
+
+# Rate Limiting
+fastapi-limiter==0.1.5
+redis==4.5.5
+
+# Utilities
+python-dotenv==1.0.0  # For environment variables (optional but recommended)
+
+# NumPy
+numpy==1.23.5
